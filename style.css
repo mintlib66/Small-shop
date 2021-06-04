@@ -88,6 +88,9 @@ body {
 .item-list__item:hover {
   font-weight: bold;
 }
+.item-list__item.hidden {
+  display: none;
+}
 .item-list__item__thumbnail {
   margin-right: 15px;
   width: var(--size-thumb);
