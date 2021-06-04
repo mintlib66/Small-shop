@@ -1,0 +1,53 @@
+{
+    "items": [
+        {
+            "type": "tshirt", 
+            "gender":"female", 
+            "size":"small", 
+            "color":"pink",
+            "image": "../img/tshirt_p.png"
+        },
+        {
+            "type": "tshirt", 
+            "gender":"female", 
+            "size":"large", 
+            "color":"blue",
+            "image": "../img/tshirt_b.png"
+        },
+        {
+            "type": "skirt", 
+            "gender":"female", 
+            "size":"large", 
+            "color":"blue",
+            "image": "../img/skirt_b.png"
+        },
+        {
+            "type": "skirt", 
+            "gender":"female", 
+            "size":"medium", 
+            "color":"yellow",
+            "image": "../img/skirt_y.png"
+        },
+        {
+            "type": "skirt", 
+            "gender":"female", 
+            "size":"large", 
+            "color":"pink",
+            "image": "../img/skirt_p.png"
+        },
+        {
+            "type": "pants", 
+            "gender":"female", 
+            "size":"large", 
+            "color":"blue",
+            "image": "../img/pants_b.png"
+        },
+        {
+            "type": "pants", 
+            "gender":"male", 
+            "size":"midium", 
+            "color":"yellow",
+            "image": "../img/pants_y.png"
+        }
+    ]
+}

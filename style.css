@@ -1,0 +1,103 @@
+@import url("reset.css");
+:root {
+  --color-blue: #6ca8ec;
+  --color-yellow: #ffff81;
+  --color-pink: pink;
+  --color-white: #fff;
+
+  --size-logo: 100px;
+  --size-btn: 50px;
+  --font-size-btn: 13px;
+  --size-thumb: 40px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d5e68;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 70%;
+}
+
+.top {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+}
+.top__logo {
+  width: var(--size-logo);
+}
+.top__logo:hover {
+  transform: scale(1.1);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.menu__btn {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.menu__btn:hover {
+  transform: scale(1.1);
+}
+.menu-img {
+  width: var(--size-btn);
+}
+.menu-color {
+  width: var(--size-btn);
+  height: var(--size-btn);
+  border: none;
+  border-radius: 5px;
+  font-size: var(--font-size-btn);
+  text-align: center;
+}
+.menu-color.blue {
+  background-color: var(--color-blue);
+}
+.menu-color.yellow {
+  background-color: var(--color-yellow);
+}
+.menu-color.pink {
+  background-color: var(--color-pink);
+}
+/* */
+.item-list {
+  overflow-y: scroll;
+}
+.item-list__item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  background-color: var(--color-white);
+}
+.item-list__item:hover {
+  font-weight: bold;
+}
+.item-list__item__thumbnail {
+  margin-right: 15px;
+  width: var(--size-thumb);
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: white;
+}
+footer a {
+  color: rgb(158, 169, 255);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Small Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="top">
+        <img src="img/wardrobe.png" alt="logo image" class="top__logo"/>
+
+      </section>
+      <section class="menu">
+        <button class="menu__btn" >
+          <img src="img/tshirt.png" alt="tshirt" class="menu-img" data-key="type" data-value="tshirt"/>
+        </button>
+        <button class="menu__btn">
+          <img src="img/skirt.png" alt="skirt" class="menu-img" data-key="type" data-value="skirt"/>
+        </button>
+        <button class="menu__btn">
+          <img src="img/shorts.png" alt="shorts" class="menu-img" data-key="type" data-value="pants"/>
+        </button>
+        <button class="menu__btn menu-color blue" data-key="color" data-value="blue">Blue</button>
+        <button class="menu__btn menu-color yellow" data-key="color" data-value="yellow">Yellow</button>
+        <button class="menu__btn menu-color pink" data-key="color" data-value="pink">Pink</button>
+      </section>
+
+      <section class="item-list">
+        <ul class="item-list__list">
+          <li class="item-list__item">
+            <img src="img/tshirt.png" class="fas fa-tshirt item-list__item__thumbnail"></img>
+            <span class="item-list__item__info">female, large</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <footer>
+        Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </footer>
+  </body>
+</html>
